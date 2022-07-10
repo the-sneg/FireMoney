@@ -23,29 +23,49 @@
       <section class="hero">
         <img src="./images/fire_1.png" alt="fire" class="fire_img" />
         <button type="button" class="hero_fire_btn">Горячие предложения</button>
-        <h1 class="hero_title">быстрые займы по всей Украине!</h1>
-        <p>Без проверки кредитной истории. От 1 000 ₽ за 15 минут.</p>
-        <p>Внимание! Услуга обработки заявки платная и составляет от 98 ₽ до 398 ₽ раз в неделю</p>
+        <h1 class="hero_title">быстрых займов по всей Украине!</h1>
+        <p class="sub_title">Без проверки кредитной истории. От 1 000 ₽ за 15 минут.</p>
+        <p class="sub_title_warning">
+          Внимание! Услуга обработки заявки платная и составляет от 98 ₽ до 398 ₽ раз в неделю
+        </p>
         <form class="calculator">
-          <p>Cрок кредита</p>
-          <p>65 000 grn</p>
-          <input type="range" min="16" max="96" />
-          <p>1000</p>
-          <p>100000</p>
-          <p>Cрок кредита</p>
-          <p>8 дней</p>
-          <input type="range" min="16" max="200" />
-          <p>3</p>
-          <p>30</p>
-          <button type="submit">Оформить заявку</button>
-          <p>Вы берете</p>
-          <p>20 000 ₽</p>
-          <p>Дата возврата</p>
-          <p>08 января 2022</p>
-          <p>К возврату</p>
-          <p>25 650 ₽</p>
-          <p>Ежемесячный платеж</p>
-          <p>5 650 ₽</p>
+          <p class="calc_title">Сумма кредита</p>
+          <p class="calc_sub_title">65 000 grn</p>
+          <input class="input_range" type="range" min="1000" max="100000" value="65000" />
+          <div class="input_sub_title_wrap">
+            <p class="input_sub_title">1000</p>
+            <p class="input_sub_title">100000</p>
+          </div>
+          <p class="calc_title">Cрок кредита</p>
+          <p class="calc_sub_title">8 дней</p>
+          <input class="input_range" type="range" min="3" max="30" value="8" />
+          <div class="input_sub_title_wrap">
+            <p class="input_sub_title">3</p>
+            <p class="input_sub_title">30</p>
+          </div>
+          <button class="primary_btn" type="submit">Оформить заявку</button>
+          <div class="final_wrap">
+            <div>
+              <div class="calc_sum_wrap">
+                <p class="calc_final_title">Вы берете</p>
+                <p class="calc_final_pre_title">20 000 ₽</p>
+              </div>
+              <div class="calc_sum_wrap">
+                <p class="calc_final_title">К возврату</p>
+                <p class="calc_final_pre_title">25 650 ₽</p>
+              </div>
+            </div>
+            <div>
+              <div class="calc_date_wrap">
+                <p class="calc_final_title">Дата возврата</p>
+                <p class="calc_final_pre_title">08 января 2022</p>
+              </div>
+              <div class="calc_date_wrap">
+                <p class="calc_final_title">Ежемесячный платеж</p>
+                <p class="calc_final_pre_title">5 650 ₽</p>
+              </div>
+            </div>
+          </div>
         </form>
       </section>
     </div>
