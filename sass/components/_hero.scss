@@ -1,6 +1,8 @@
 .hero {
     padding-left: 10px;
     padding-right: 10px;
+    height: 780px;
+    
 }
 
 .fire_img {
@@ -24,6 +26,7 @@ background: rgba(255, 255, 255, 0.95);
 backdrop-filter: blur(12px);
 border-radius: 12px;
 margin-bottom: 20px;
+display: block;
 }
 
 .hero_title {
@@ -55,7 +58,7 @@ font-weight: 400;
 
 .calculator {
     width: 305px;
-        height: 582px;
+        height: 430px;
         background: rgba(255, 255, 255, 0.9);
         box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.05);
         backdrop-filter: blur(12px);
@@ -115,15 +118,18 @@ font-weight: 400;
         padding: 22px 44px;
         display: block;
         margin: 0 auto;
+        margin-bottom: 50px;
 }
 
 .final_wrap {
    display: flex;
+   justify-content: space-between;
 }
 
 .calc_sum_wrap {
     display: flex;
     flex-direction: column;
+    padding-bottom: 15px;
     
 }
 

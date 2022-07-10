@@ -20,9 +20,9 @@
         <a href="./index.html" class="fire">Fire<span class="money">Money</span></a>
         <button type="button" class="log_in_btn">вход в кабинет</button>
       </header>
-      <section class="hero">
+      <section class="hero" id="menu">
         <img src="./images/fire_1.png" alt="fire" class="fire_img" />
-        <button type="button" class="hero_fire_btn">Горячие предложения</button>
+        <a href="#hot" class="hero_fire_btn">Горячие предложения</a>
         <h1 class="hero_title">быстрых займов по всей Украине!</h1>
         <p class="sub_title">Без проверки кредитной истории. От 1 000 ₽ за 15 минут.</p>
         <p class="sub_title_warning">
@@ -50,15 +50,15 @@
                 <p class="calc_final_title">Вы берете</p>
                 <p class="calc_final_pre_title">20 000 ₽</p>
               </div>
-              <div class="calc_sum_wrap">
-                <p class="calc_final_title">К возврату</p>
-                <p class="calc_final_pre_title">25 650 ₽</p>
-              </div>
-            </div>
-            <div>
               <div class="calc_date_wrap">
                 <p class="calc_final_title">Дата возврата</p>
                 <p class="calc_final_pre_title">08 января 2022</p>
+              </div>
+            </div>
+            <div>
+              <div class="calc_sum_wrap">
+                <p class="calc_final_title">К возврату</p>
+                <p class="calc_final_pre_title">25 650 ₽</p>
               </div>
               <div class="calc_date_wrap">
                 <p class="calc_final_title">Ежемесячный платеж</p>
@@ -70,7 +70,7 @@
       </section>
     </div>
     <section class="best_suggestions">
-      <h2>Лучшие предложения</h2>
+      <h2 id="hot">Лучшие предложения</h2>
       <div>
         <p>15 000 ₽ на 7 дней</p>
         <p>Дата возврата: 12 января 2022</p>
@@ -256,5 +256,6 @@
       <a href="">i</a>
       <a href="">f</a>
     </footer>
+    <script src="./js/slow.js"></script>
   </body>
 </html>
