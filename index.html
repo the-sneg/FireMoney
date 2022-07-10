@@ -30,15 +30,22 @@
         </p>
         <form class="calculator">
           <p class="calc_title">Сумма кредита</p>
-          <p class="calc_sub_title">65 000 grn</p>
-          <input class="input_range" type="range" min="1000" max="100000" value="65000" />
+          <p class="calc_sub_title"><span id="change_sum">65 000</span> грн</p>
+          <input
+            id="input_sum"
+            class="input_range"
+            type="range"
+            min="1000"
+            max="100000"
+            value="65000"
+          />
           <div class="input_sub_title_wrap">
             <p class="input_sub_title">1000</p>
             <p class="input_sub_title">100000</p>
           </div>
           <p class="calc_title">Cрок кредита</p>
-          <p class="calc_sub_title">8 дней</p>
-          <input class="input_range" type="range" min="3" max="30" value="8" />
+          <p class="calc_sub_title"><span id="change_date">8</span> дней</p>
+          <input id="input_date" class="input_range" type="range" min="3" max="30" value="8" />
           <div class="input_sub_title_wrap">
             <p class="input_sub_title">3</p>
             <p class="input_sub_title">30</p>
@@ -257,5 +264,7 @@
       <a href="">f</a>
     </footer>
     <script src="./js/slow.js"></script>
+    <script src="./js/change_sum.js"></script>
+    <script src="./js/change_date.js"></script>
   </body>
 </html>

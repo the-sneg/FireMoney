@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "type": "module",
+    "notiflix": "^3.2.5"
+    
+  }
+
+}
