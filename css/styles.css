@@ -46,6 +46,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 25px;
 }
 
 .header_hero_wrap {
@@ -76,4 +77,42 @@ header {
 
 footer {
   background-image: url(/images/footer_background.png);
+}
+
+.hero {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fire_img {
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+}
+
+.hero_fire_btn {
+  padding-left: 53px;
+  padding-right: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #3C4260;
+  position: relative;
+  background: rgba(255, 255, 255, 0.95);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.hero_title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 111.5%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }/*# sourceMappingURL=styles.css.map */
