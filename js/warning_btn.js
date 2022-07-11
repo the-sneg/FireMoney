@@ -1,8 +1,8 @@
-import Notiflix from 'notiflix';
+// import Notiflix from '../node_modules/notiflix/src/notiflix';
 
-const warBtn = document.querySelector('#warning');
+const warBtn = document.querySelector('[warning]');
 warBtn.addEventListener('click', warMess);
 
 function warMess() {
-  return Notiflix.Notify.warning('wwww');
+  return alert('Это тестовая версия! Некоторые функции не доступны!');
 }
