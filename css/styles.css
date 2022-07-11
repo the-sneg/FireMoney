@@ -50,7 +50,7 @@ header {
 }
 
 .header_hero_wrap {
-  background-image: url(images/hero_bg.png);
+  background-image: url(../images/hero_bg.png);
 }
 
 .fire {
@@ -76,7 +76,7 @@ header {
 }
 
 footer {
-  background-image: url(images/footer_background.png);
+  background-image: url(../images/footer_background.png);
 }
 
 .hero {
