@@ -1,3 +1,4 @@
+import Notiflix from 'notiflix';
 const warBtn = document.querySelectorAll('[warning]');
 warBtn.forEach(function (e) {
   e.onclick = function () {
