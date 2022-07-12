@@ -1,0 +1,39 @@
+.how_get {
+    padding: 20px 10px;
+}
+.how_get_title {
+    font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 33px;
+        text-align: center; 
+        color: #45515F;
+}
+.how_get_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    position: relative;
+    
+}
+.how_get_list_number {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 145.5%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 4px 10px;
+        border-radius: 50%;
+        background-color: #FFA147;
+        
+}
+.how_get_list_title {
+    font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 132%;
+        color: #45515F;
+        width: 150px;
+}

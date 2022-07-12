@@ -1,6 +1,7 @@
 body {
   font-family: "Rubik";
   margin: 0;
+  background: #F6F9FC;
 }
 
 img,
@@ -74,6 +75,14 @@ header {
   text-transform: uppercase;
   color: #FFFFFF;
   border-radius: 8px;
+  -webkit-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+}
+.log_in_btn:hover {
+  -webkit-transform: scale(101%);
+          transform: scale(101%);
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 footer {
@@ -109,6 +118,12 @@ footer {
   border-radius: 12px;
   margin-bottom: 20px;
   display: block;
+  -webkit-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+}
+.hero_fire_btn:hover {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .hero_title {
@@ -207,6 +222,14 @@ footer {
   display: block;
   margin: 0 auto;
   margin-bottom: 50px;
+  -webkit-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+}
+.primary_btn:hover {
+  -webkit-transform: scale(101%);
+          transform: scale(101%);
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .final_wrap {
@@ -253,4 +276,119 @@ footer {
   font-size: 18px;
   line-height: 21px;
   color: #F28925;
+}
+
+.best_suggestions {
+  padding: 30px 10px;
+}
+
+.best_suggestions_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 33px;
+  text-align: center;
+  color: #45515F;
+  margin-bottom: 20px;
+}
+
+.best_suggestions_card {
+  max-height: 172px;
+  background: rgba(255, 255, 255, 0.95);
+  -webkit-box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.05);
+          box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.05);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-radius: 22px;
+  margin-bottom: 20px;
+  padding: 20px 35px;
+  -webkit-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+}
+.best_suggestions_card:hover {
+  -webkit-transform: scale(101%);
+          transform: scale(101%);
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 33px;
+  color: #45515F;
+  margin-bottom: 30px;
+}
+
+.yellow_card_title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #FFC83E;
+}
+
+.card_pre_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 182%;
+  color: #45515F;
+}
+
+.sub_title_warning_dark {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 145.5%;
+  text-align: center;
+  color: #45515F;
+}
+
+.how_get {
+  padding: 20px 10px;
+}
+
+.how_get_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 33px;
+  text-align: center;
+  color: #45515F;
+}
+
+.how_get_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.how_get_list_number {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145.5%;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 4px 10px;
+  border-radius: 50%;
+  background-color: #FFA147;
+}
+
+.how_get_list_title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 132%;
+  color: #45515F;
+  width: 150px;
 }/*# sourceMappingURL=styles.css.map */
