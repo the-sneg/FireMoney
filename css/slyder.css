@@ -12,14 +12,14 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 
 input[type=range]::-webkit-slider-thumb {
-    background: #f1a604;
+background: linear-gradient(0.25turn, #fd7302, #f3f3ce, #df3c0b);
     border: 1px solid rgb(146, 148, 148);
     border-radius: 15px/100%;
     cursor: pointer;
     width: 15px;
     height: 15px;
     -webkit-appearance: none;
-    margin-top: -4px;
+    margin-top: -5px;
    
 }
 
