@@ -1,0 +1,38 @@
+.qna {
+padding: 50px 10px;
+}
+.qna_title {
+    font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 45px;
+        color: #45515F;
+        text-align: center;
+        margin-bottom: 30px;
+}
+
+.qna_hide_text {
+    display: none;
+}
+.is_open {
+    display: block;
+}
+
+
+
+.qna_btn {
+    background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.05);
+        backdrop-filter: blur(12px);
+        border-radius: 12px;
+        width: 340px;
+        height: 70px;
+        
+}
+.qna_btn_is_open {
+    background: linear-gradient(268.87deg, #FFC83E -5.09%, #FF7347 51.96%);
+}
+.qna_wrap {
+    background: linear-gradient(268.87deg, #FFC83E -5.09%, #FF7347 51.96%);
+    border-radius: 12px;
+}

@@ -1,0 +1,30 @@
+.receiving {
+ padding-left: 10px;
+ padding-right: 10px;
+}
+.receiving_title {
+    font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 33px;
+        text-align: center;  
+        color: #45515F;
+        margin-bottom: 20px;
+}
+
+.receiving_sub_title {
+    font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 145.5%;
+        color: #45515F;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+}
+.wallet_wrap {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    padding-right: 10px;
+}

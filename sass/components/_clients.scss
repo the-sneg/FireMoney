@@ -1,0 +1,54 @@
+.clients {
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 34px;
+padding-bottom: 34px;
+background-image: url(../images/clients_bg.png);
+} 
+.clients_title {
+font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 45px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.clients_card {
+    background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.05);
+        backdrop-filter: blur(12px);
+        border-radius: 22px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 70px;
+        padding-right: 40px;
+        position: relative;
+}
+.clients_status_img {
+    position: absolute;
+        top: 50px;
+        left: 20px;
+}
+.clients_card_title {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #45515F;
+        margin-bottom: 5px;
+}
+.clients_card_status {
+    font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;   
+        color: #536473;
+        margin-bottom: 5px;
+}
+.clients_card_city {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px; 
+        color: #93A0AB;
+}
