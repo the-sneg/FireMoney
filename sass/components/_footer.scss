@@ -1,3 +1,207 @@
 footer {
     background-image: url(../images/footer_background.png);
+   padding: 25px 10px;
 }
+.tel {
+font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mail {
+font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.footer_nav_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &::after {
+            content: '';
+                left: 0;
+                bottom: -1px;
+                width: 100%;
+                display: block;
+                
+                border-radius: 2px;
+                border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+}
+.footer_second_nav_wrap {
+   padding: 30px 0;
+&::after {
+        content: '';
+        left: 0;
+        bottom: -1px;
+        width: 100%;
+        display: block;
+
+        border-radius: 2px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+}
+
+.footer_why_us {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin-right: 9px;
+}
+.footer_about {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin-right: 9px;
+}
+.footer_qna {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        display: inline-block;
+        margin-bottom: 30px;
+}
+.credit_list {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+}
+.credit_list_desc {
+    font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+        
+        &::after {
+                content: '';
+                left: 0;
+                width: 100%;
+                display: block;
+                border-radius: 2px;
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                margin-top: 30px;
+            }
+}
+.how_cards {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 20px;
+}
+.footer_wallets_wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.personal_wrap {
+    border: 1px solid #FFFFFF;
+    padding: 22px 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.personal_data {
+    font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+}
+.personal_data_link {
+    font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+text-decoration: underline;
+
+}
+.accepting {
+font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.accepting_desc {
+font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    &::after {
+            content: '';
+            left: 0;
+            bottom: -1px;
+            width: 100%;
+            display: block;
+    
+            border-radius: 2px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    
+}
+    .accepting_desc_span {
+        margin-top: 20px;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .adult_img {
+        margin-top: 40px;
+    margin: 40px auto;
+    }
+    .credits {
+        font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            color: #FFFFFF;
+            padding: 0 40px;
+            margin-bottom: 35px;
+    }
+
+    .unsubscribe {
+        font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;    
+            text-transform: uppercase;
+            color: #FEFEFE;
+            border: 1px solid #FEFEFE;
+                border-radius: 8px;
+                padding: 13px 30px;
+                background: none;
+    }
+    .links_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+    }

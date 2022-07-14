@@ -65,6 +65,7 @@ parcelRequire = (function (e, r, t, n) {
           const e = {
             openDetalBtn: document.querySelector('[data-detalis-open]'),
             detalis: document.querySelector('[data-detalis]'),
+            wrap: document.querySelector('[data-detalis-wrap]'),
           };
           function t() {
             e.detalis.classList.toggle('is_open');

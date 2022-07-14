@@ -13,9 +13,19 @@ padding: 50px 10px;
 
 .qna_hide_text {
     display: none;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        text-align: left;
 }
 .is_open {
     display: block;
+    color: #ffffff;
 }
 
 
@@ -25,14 +35,26 @@ padding: 50px 10px;
         box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.05);
         backdrop-filter: blur(12px);
         border-radius: 12px;
-        width: 340px;
+        width: 100%;
         height: 70px;
+        font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            color: #45515F;
+            text-align: left;
+            padding-left: 15px;
         
 }
 .qna_btn_is_open {
     background: linear-gradient(268.87deg, #FFC83E -5.09%, #FF7347 51.96%);
+    color: #ffffff;
 }
 .qna_wrap {
     background: linear-gradient(268.87deg, #FFC83E -5.09%, #FF7347 51.96%);
-    border-radius: 12px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
+
 }
