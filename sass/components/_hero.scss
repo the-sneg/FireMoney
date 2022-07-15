@@ -85,7 +85,11 @@ font-weight: 400;
         line-height: 145.5%;
         text-align: center;
         color: #FFFFFF;
-        margin-bottom: 70px;
+        margin-bottom: 10px;
+        
+        @media screen and (min-width: 768px) {
+            margin-bottom: 70px;
+            }
 }
 
 .hero_women {

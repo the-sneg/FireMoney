@@ -18,6 +18,19 @@
         border-radius: 22px;
         margin-bottom: 30px;
         padding: 30px 25px;
+        @media screen and (min-width: 768px) {
+                margin-right: 20px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+}
+
+.featcher_card_wrap_wrap {
+    display: none;
+    @media screen and (min-width: 768px) {
+            display: flex;
+        }
 }
 
 .feather_card_img {
@@ -47,8 +60,21 @@ font-style: normal;
     color: #536473;
     margin-bottom: 30px;
 }
+
+.featcher_btn_wrap {
+    display: none;
+    @media screen and (min-width: 768px) {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 55px;
+        }
+}
 .primary_btn_feathers {
     margin-bottom: 10px;
+    @media screen and (min-width: 768px) {
+            margin: 0;
+            margin-right: 10px;
+        }
 }
 .featchers_btn {
     font-style: normal;
@@ -62,4 +88,14 @@ font-style: normal;
             padding: 21px 31px;
             display: block;
             margin: 0 auto;
+            @media screen and (min-width: 768px) {
+                    margin: 0;
+                }
+}
+
+.hide {
+    display: none;
+    @media screen and (min-width: 768px) {
+            display: block;
+        }
 }

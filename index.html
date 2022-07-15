@@ -126,22 +126,46 @@
       <h2 class="how_get_title">Как получить деньги</h2>
       <div class="how_get_card_wrap">
         <div class="how_get_card">
-          <img src="./images/how_get_1.png" alt="hand & money" height="77" width="68" />
+          <img
+            class="how_get_card_img"
+            src="./images/how_get_1.png"
+            alt="hand & money"
+            height="77"
+            width="68"
+          />
           <p class="how_get_list_number one">1</p>
           <p class="how_get_list_title">Выберите сумму займа</p>
         </div>
         <div class="how_get_card">
-          <img src="./images/how_get_2.png" alt="papier & pen" height="77" width="68" />
+          <img
+            class="how_get_card_img"
+            src="./images/how_get_2.png"
+            alt="papier & pen"
+            height="77"
+            width="68"
+          />
           <p class="how_get_list_number">2</p>
           <p class="how_get_list_title">Заполните анкету</p>
         </div>
         <div class="how_get_card">
-          <img src="./images/how_get_3.png" alt="chat" height="77" width="68" />
+          <img
+            class="how_get_card_img"
+            src="./images/how_get_3.png"
+            alt="chat"
+            height="77"
+            width="68"
+          />
           <p class="how_get_list_number">3</p>
           <p class="how_get_list_title">Дождитесь рассмотрения заявки</p>
         </div>
         <div class="how_get_card">
-          <img src="./images/how_get_4.png" alt="wallet" height="77" width="68" />
+          <img
+            class="how_get_card_img"
+            src="./images/how_get_4.png"
+            alt="wallet"
+            height="77"
+            width="68"
+          />
           <p class="how_get_list_number">4</p>
           <p class="how_get_list_title">Получите деньги любым удобным способом</p>
         </div>
@@ -152,45 +176,72 @@
       <h2 class="receiving_title">Способы получения</h2>
       <p class="receiving_sub_title">На карту Visa, Master Card, Наличные.</p>
       <div class="wallet_wrap">
-        <img src="./images/visa.png" alt="visa" width="55" />
-        <img src="./images/master_card.png" alt="master card" width="55" />
-        <img src="./images/cash.png" alt="cash" width="40" />
+        <img class="wallet_img" src="./images/visa.png" alt="visa" width="55" />
+        <img class="wallet_img" src="./images/master_card.png" alt="master card" width="55" />
+        <img class="wallet_img" src="./images/cash.png" alt="cash" width="40" />
       </div>
       <button class="primary_btn" warning type="button">Оформить заявку</button>
     </section>
     <section class="featchers" id="why_us">
       <h2 class="featchers_title">Почему выбирают нас</h2>
 
-      <div class="featcher_card_wrap">
-        <img class="feather_card_img" src="./images/women.png" alt="women" />
-        <p class="featchers_card_title">Екатерина Романова, 26 лет</p>
-        <p class="featchers_card_city">г. Москва</p>
-        <p class="featchers_card_after_title">
-          Для того, чтобы воспользоваться услугой, вам необходимо лишь заполнить анкету на сайте,
-          все остальное сервис сделает за вас, сэкономив вам большое количество времени и сил. Наш
-          сервис работает со всеми клиентами, нам не важно, какая у вас кредитная история и имеются
-          ли текущие просрочки.
-        </p>
-        <img class="featcher_card_rating" src="./images/rating_4.svg" alt="rating_4" />
+      <div class="featcher_card_wrap_wrap">
+        <div class="featcher_card_wrap">
+          <img class="feather_card_img" src="./images/women.png" alt="women" />
+          <p class="featchers_card_title">Екатерина Романова, 26 лет</p>
+          <p class="featchers_card_city">г. Москва</p>
+          <p class="featchers_card_after_title">
+            Для того, чтобы воспользоваться услугой, вам необходимо лишь заполнить анкету на сайте,
+            все остальное сервис сделает за вас, сэкономив вам большое количество времени и сил. Наш
+            сервис работает со всеми клиентами, нам не важно, какая у вас кредитная история и
+            имеются ли текущие просрочки.
+          </p>
+          <img class="featcher_card_rating" src="./images/rating_4.svg" alt="rating_4" />
+        </div>
+        <div class="featcher_card_wrap hide">
+          <img class="feather_card_img" src="./images/women_1.png" alt="women" />
+          <p class="featchers_card_title">Екатерина Романова, 33 года</p>
+          <p class="featchers_card_city">г. Москва</p>
+          <p class="featchers_card_after_title">
+            Для того, чтобы воспользоваться услугой, вам необходимо лишь заполнить анкету на сайте,
+            все остальное сервис сделает за вас, сэкономив вам большое количество времени и сил. Наш
+            сервис работает со всеми клиентами, нам не важно, какая у вас кредитная история и
+            имеются ли текущие просрочки.
+          </p>
+          <img class="featcher_card_rating" src="./images/rating_4.svg" alt="rating_4" />
+        </div>
       </div>
-      <button class="primary_btn primary_btn_feathers" warning type="button">
-        Оформить заявку
-      </button>
-      <button class="featchers_btn" type="button">Все отзывы</button>
+      <div class="featcher_btn_wrap">
+        <button class="primary_btn primary_btn_feathers" warning type="button">
+          Оформить заявку
+        </button>
+        <button class="featchers_btn" type="button">Все отзывы</button>
+      </div>
     </section>
     <section class="clients">
       <h2 class="clients_title">Наши клиенты</h2>
-      <div class="clients_card">
-        <img class="clients_status_img" src="./images/false.png" alt="false" width="21" />
-        <p class="clients_card_title">Екатерина Романова</p>
-        <p class="clients_card_status">Получила отказ 45 сек назад</p>
-        <p class="clients_card_city">г. Москва</p>
+      <div class="clients_cards_wrap">
+        <div class="clients_card">
+          <img class="clients_status_img" src="./images/false.png" alt="false" width="21" />
+          <p class="clients_card_title">Екатерина Романова</p>
+          <p class="clients_card_status">Получила отказ 45 сек назад</p>
+          <p class="clients_card_city">г. Москва</p>
+        </div>
+        <div class="clients_card hide">
+          <img class="clients_status_img" src="./images/true.png" alt="false" width="21" />
+          <p class="clients_card_title">Игорь Николаев</p>
+          <p class="clients_card_status">Взял 5 000 ₽ 2 мин назад</p>
+          <p class="clients_card_city">г. Москва</p>
+        </div>
       </div>
     </section>
     <section class="about" id="about">
       <h2 class="about_title">О сервисе</h2>
       <div class="overdue_wrap">
-        <h3 class="about_overdue">Все возможные риски и убытки, и условия выдачи кредитов.</h3>
+        <h3 class="about_overdue">
+          Все возможные риски и убытки, <br />
+          и условия выдачи кредитов.
+        </h3>
         <p class="overdue_desc">
           По вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и
           работает непосредственно с кредитными организациями, предоставляющими микрозаймы В случае

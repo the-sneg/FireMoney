@@ -4,7 +4,15 @@ padding-right: 10px;
 padding-top: 34px;
 padding-bottom: 34px;
 background-image: url(../images/clients_bg.png);
+background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media screen and (min-width: 768px) {
+        background-image: url(../images/clients_bg_768.png);
+        padding-top: 55px;
+        padding-bottom: 59px;
 } 
+}
 .clients_title {
 font-style: normal;
     font-weight: 600;
@@ -12,6 +20,7 @@ font-style: normal;
     line-height: 45px;
     color: #FFFFFF;
     text-align: center;
+    margin-bottom: 30px;
 }
 .clients_card {
     background: rgba(255, 255, 255, 0.95);
@@ -23,6 +32,21 @@ font-style: normal;
         padding-left: 70px;
         padding-right: 40px;
         position: relative;
+        @media screen and (min-width: 768px) {
+                width: 250px;
+                margin-right: 20px;
+                &:last-child {
+                    margin-right: 0px;
+                }
+            }
+}
+
+.clients_cards_wrap {
+    
+    @media screen and (min-width: 768px) {
+           display: flex;
+           justify-content: center;
+        }
 }
 .clients_status_img {
     position: absolute;

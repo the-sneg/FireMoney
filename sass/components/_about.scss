@@ -17,6 +17,9 @@
         backdrop-filter: blur(12px);
         border-radius: 22px;
         padding: 34px 28px;
+        @media screen and (min-width: 768px) {
+                padding: 34px 50px;
+            }
        
 }
 .about_overdue {
