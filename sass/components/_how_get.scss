@@ -8,6 +8,7 @@
         line-height: 33px;
         text-align: center; 
         color: #45515F;
+        margin-bottom: 50px;
 }
 .how_get_card {
     display: flex;
@@ -15,6 +16,19 @@
     align-items: center;
     margin-bottom: 70px;
     position: relative;
+    @media screen and (min-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+}
+
+.how_get_card_wrap {
+    @media screen and (min-width: 768px) {
+        display: flex;
+            display: flex;
+            justify-content: space-between;
+        }
     
 }
 .how_get_list_number {
