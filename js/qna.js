@@ -70,51 +70,62 @@ parcelRequire = (function (e, r, t, n) {
           function t() {
             e.detalis.classList.toggle('is_open');
             e.openDetalBtn.classList.toggle('qna_btn_is_open');
+            e.wrap.classList.toggle('is_open');
           }
           e.openDetalBtn.addEventListener('click', t), e.detalis.addEventListener('click', t);
           const a = {
             openDetalBtn2: document.querySelector('[data-detalis-open2]'),
             detalis2: document.querySelector('[data-detalis2]'),
+            wrap: document.querySelector('[data-detalis-wrap2]'),
           };
           function n() {
             a.detalis2.classList.toggle('is_open');
             a.openDetalBtn2.classList.toggle('qna_btn_is_open');
+            a.wrap.classList.toggle('is_open');
           }
           a.openDetalBtn2.addEventListener('click', n), a.detalis2.addEventListener('click', n);
           const l = {
             openDetalBtn3: document.querySelector('[data-detalis-open3]'),
             detalis3: document.querySelector('[data-detalis3]'),
+            wrap: document.querySelector('[data-detalis-wrap3]'),
           };
           function s() {
             l.detalis3.classList.toggle('is_open');
             l.openDetalBtn3.classList.toggle('qna_btn_is_open');
+            l.wrap.classList.toggle('is_open');
           }
           l.openDetalBtn3.addEventListener('click', s), l.detalis3.addEventListener('click', s);
           const z = {
             openDetalBtn4: document.querySelector('[data-detalis-open4]'),
             detalis4: document.querySelector('[data-detalis4]'),
+            wrap: document.querySelector('[data-detalis-wrap4]'),
           };
           function zz() {
             z.detalis4.classList.toggle('is_open');
             z.openDetalBtn4.classList.toggle('qna_btn_is_open');
+            z.wrap.classList.toggle('is_open');
           }
           z.openDetalBtn4.addEventListener('click', zz), l.detalis3.addEventListener('click', zz);
           const x = {
             openDetalBtn5: document.querySelector('[data-detalis-open5]'),
             detalis5: document.querySelector('[data-detalis5]'),
+            wrap: document.querySelector('[data-detalis-wrap5]'),
           };
           function xx() {
             x.detalis5.classList.toggle('is_open');
             x.openDetalBtn5.classList.toggle('qna_btn_is_open');
+            x.wrap.classList.toggle('is_open');
           }
           x.openDetalBtn5.addEventListener('click', xx), l.detalis3.addEventListener('click', xx);
           const c = {
             openDetalBtn6: document.querySelector('[data-detalis-open6]'),
             detalis6: document.querySelector('[data-detalis6]'),
+            wrap: document.querySelector('[data-detalis-wrap6]'),
           };
           function cc() {
             c.detalis6.classList.toggle('is_open');
             c.openDetalBtn6.classList.toggle('qna_btn_is_open');
+            c.wrap.classList.toggle('is_open');
           }
           c.openDetalBtn6.addEventListener('click', cc), l.detalis3.addEventListener('click', cc);
         })();

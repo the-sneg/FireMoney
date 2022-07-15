@@ -875,6 +875,8 @@ footer {
 .is_open {
   display: block;
   color: #ffffff;
+  background: linear-gradient(268.87deg, #FFC83E -5.09%, #FF7347 51.96%);
+  border-radius: 20px;
 }
 
 .qna_btn {
@@ -901,8 +903,6 @@ footer {
 }
 
 .qna_wrap {
-  background: linear-gradient(268.87deg, #FFC83E -5.09%, #FF7347 51.96%);
-  border-radius: 20px;
   margin-bottom: 10px;
   text-align: center;
 }
