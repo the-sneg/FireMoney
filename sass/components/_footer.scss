@@ -1,6 +1,12 @@
 footer {
+    background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     background-image: url(../images/footer_background.png);
    padding: 25px 10px;
+@media screen and (min-width: 768px) {
+        background-image: url(../images/footer_background_768.png);
+    }
 }
 .tel {
 font-style: normal;
@@ -10,6 +16,12 @@ font-style: normal;
     color: #FFFFFF;
     margin-top: 20px;
     margin-bottom: 20px;
+    @media screen and (min-width: 768px) {
+            margin-right: 130px;
+            margin-left: 130px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
 }
 .mail {
 font-style: normal;
@@ -18,6 +30,10 @@ font-style: normal;
     line-height: 15px;
     color: #FFFFFF;
     margin-bottom: 32px;
+@media screen and (min-width: 768px) {
+        display: inline-block;
+    }
+    
 }
 .footer_nav_wrap {
     display: flex;
@@ -33,9 +49,13 @@ font-style: normal;
                 border-radius: 2px;
                 border: 1px solid rgba(255, 255, 255, 0.2);
     }
+        @media screen and (min-width: 768px) {
+            display: block;
+        }
 }
 .footer_second_nav_wrap {
    padding: 30px 0;
+   text-align: center;
 &::after {
         content: '';
         left: 0;
@@ -46,6 +66,7 @@ font-style: normal;
         border-radius: 2px;
         border: 1px solid rgba(255, 255, 255, 0.2);
     }
+        
 }
 
 .footer_why_us {
@@ -55,6 +76,9 @@ font-style: normal;
         line-height: 19px;
         color: #FFFFFF;
         margin-right: 9px;
+        @media screen and (min-width: 768px) {
+                margin-right: 50px;
+            }
 }
 .footer_about {
     font-style: normal;
@@ -63,6 +87,9 @@ font-style: normal;
         line-height: 19px;
         color: #FFFFFF;
         margin-right: 9px;
+        @media screen and (min-width: 768px) {
+                margin-right: 50px;
+            }
 }
 .footer_qna {
     font-style: normal;
@@ -108,11 +135,32 @@ font-style: normal;
         color: #FFFFFF;
         text-align: center;
         margin-bottom: 20px;
+        @media screen and (min-width: 768px) {
+                display: inline-block;
+                margin-right: 100px;
+                text-align: start;
+            }
 }
 .footer_wallets_wrap {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    @media screen and (min-width: 768px) {
+            display: inline-block;
+            margin-bottom: 0;
+        }
+}
+
+.footer_wallet_visa {
+    @media screen and (min-width: 768px) {
+            display: inline-block;
+            margin-right: 30px;
+        }
+}
+.footer_wallet_mater_card {
+    @media screen and (min-width: 768px) {
+            display: inline-block;
+        }
 }
 .personal_wrap {
     border: 1px solid #FFFFFF;
@@ -128,6 +176,10 @@ font-style: normal;
         line-height: 21px;
         text-align: center;
         color: #FFFFFF;
+        @media screen and (min-width: 768px) {
+                display: inline-block;
+                margin-right: 5px;
+            }
 }
 .personal_data_link {
     font-style: normal;
@@ -164,17 +216,28 @@ font-style: normal;
             border-radius: 2px;
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
+                @media screen and (min-width: 768px) {
+                    margin-bottom: 30px;
+                }
     
 }
     .accepting_desc_span {
         margin-top: 20px;
         display: block;
         margin-bottom: 20px;
+        
     }
 
     .adult_img {
-        margin-top: 40px;
     margin: 40px auto;
+    @media screen and (min-width: 768px) {
+        margin: 0;
+        margin-right: 30px;
+        margin-left: 75px;
+                margin-bottom: -20px;
+                display: inline-block;
+        }
+
     }
     .credits {
         font-style: normal;
@@ -185,6 +248,11 @@ font-style: normal;
             color: #FFFFFF;
             padding: 0 40px;
             margin-bottom: 35px;
+            @media screen and (min-width: 768px) {
+                    display: inline-block;
+                    padding: 0;
+                
+                }
     }
 
     .unsubscribe {
@@ -204,4 +272,8 @@ font-style: normal;
         align-items: center;
         justify-content: space-between;
         padding: 0 15px;
+        @media screen and (min-width: 768px) {
+                justify-content: space-evenly;
+                padding: 0 130px;
+            }
     }

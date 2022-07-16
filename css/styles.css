@@ -38,6 +38,27 @@ p {
   margin: 0;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+@media screen and (min-width: 360px) {
+  .container {
+    width: 360px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
 header {
   padding-right: 10px;
   padding-left: 10px;
@@ -147,8 +168,16 @@ header {
 }
 
 footer {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   background-image: url(../images/footer_background.png);
   padding: 25px 10px;
+}
+@media screen and (min-width: 768px) {
+  footer {
+    background-image: url(../images/footer_background_768.png);
+  }
 }
 
 .tel {
@@ -160,6 +189,14 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+  .tel {
+    margin-right: 130px;
+    margin-left: 130px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
 
 .mail {
   font-style: normal;
@@ -168,6 +205,11 @@ footer {
   line-height: 15px;
   color: #FFFFFF;
   margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+  .mail {
+    display: inline-block;
+  }
 }
 
 .footer_nav_wrap {
@@ -191,9 +233,15 @@ footer {
   border-radius: 2px;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+@media screen and (min-width: 768px) {
+  .footer_nav_wrap {
+    display: block;
+  }
+}
 
 .footer_second_nav_wrap {
   padding: 30px 0;
+  text-align: center;
 }
 .footer_second_nav_wrap::after {
   content: "";
@@ -213,6 +261,11 @@ footer {
   color: #FFFFFF;
   margin-right: 9px;
 }
+@media screen and (min-width: 768px) {
+  .footer_why_us {
+    margin-right: 50px;
+  }
+}
 
 .footer_about {
   font-style: normal;
@@ -221,6 +274,11 @@ footer {
   line-height: 19px;
   color: #FFFFFF;
   margin-right: 9px;
+}
+@media screen and (min-width: 768px) {
+  .footer_about {
+    margin-right: 50px;
+  }
 }
 
 .footer_qna {
@@ -270,6 +328,13 @@ footer {
   text-align: center;
   margin-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+  .how_cards {
+    display: inline-block;
+    margin-right: 100px;
+    text-align: start;
+  }
+}
 
 .footer_wallets_wrap {
   display: -webkit-box;
@@ -279,6 +344,25 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .footer_wallets_wrap {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer_wallet_visa {
+    display: inline-block;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer_wallet_mater_card {
+    display: inline-block;
+  }
 }
 
 .personal_wrap {
@@ -295,6 +379,12 @@ footer {
   line-height: 21px;
   text-align: center;
   color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .personal_data {
+    display: inline-block;
+    margin-right: 5px;
+  }
 }
 
 .personal_data_link {
@@ -333,6 +423,11 @@ footer {
   border-radius: 2px;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+@media screen and (min-width: 768px) {
+  .accepting_desc {
+    margin-bottom: 30px;
+  }
+}
 
 .accepting_desc_span {
   margin-top: 20px;
@@ -341,8 +436,16 @@ footer {
 }
 
 .adult_img {
-  margin-top: 40px;
   margin: 40px auto;
+}
+@media screen and (min-width: 768px) {
+  .adult_img {
+    margin: 0;
+    margin-right: 30px;
+    margin-left: 75px;
+    margin-bottom: -20px;
+    display: inline-block;
+  }
 }
 
 .credits {
@@ -354,6 +457,12 @@ footer {
   color: #FFFFFF;
   padding: 0 40px;
   margin-bottom: 35px;
+}
+@media screen and (min-width: 768px) {
+  .credits {
+    display: inline-block;
+    padding: 0;
+  }
 }
 
 .unsubscribe {
@@ -381,6 +490,14 @@ footer {
           justify-content: space-between;
   padding: 0 15px;
 }
+@media screen and (min-width: 768px) {
+  .links_wrap {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 0 130px;
+  }
+}
 
 .hero {
   padding-left: 10px;
@@ -390,6 +507,12 @@ footer {
 @media screen and (min-width: 768px) {
   .hero {
     height: 810px;
+    position: relative;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    height: 600px;
   }
 }
 
@@ -400,8 +523,13 @@ footer {
 }
 @media screen and (min-width: 768px) {
   .fire_img {
-    top: 80px;
+    top: -5px;
     left: 200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .fire_img {
+    left: 20px;
   }
 }
 
@@ -440,9 +568,20 @@ footer {
     display: inline-block;
   }
 }
+@media screen and (min-width: 1200px) {
+  .hero_fire_btn {
+    text-align: left;
+    width: 290px;
+  }
+}
 
 .hero_fire_wrap {
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .hero_fire_wrap {
+    text-align: left;
+  }
 }
 
 .hero_title {
@@ -454,6 +593,12 @@ footer {
   color: #FFFFFF;
   margin-bottom: 15px;
 }
+@media screen and (min-width: 1200px) {
+  .hero_title {
+    text-align: left;
+    font-size: 48px;
+  }
+}
 
 .sub_title {
   font-weight: 400;
@@ -462,6 +607,13 @@ footer {
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 15px;
+}
+@media screen and (min-width: 1200px) {
+  .sub_title {
+    text-align: left;
+    font-size: 27px;
+    margin-bottom: 200px;
+  }
 }
 
 .sub_title_warning {
@@ -477,18 +629,30 @@ footer {
     margin-bottom: 70px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .sub_title_warning {
+    text-align: left;
+  }
+}
 
 .hero_women {
   display: none;
+  pointer-events: none;
 }
 @media screen and (min-width: 768px) {
   .hero_women {
     display: block;
     position: absolute;
     height: 660px;
-    top: 240px;
+    top: 150px;
     left: 10px;
     z-index: 1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero_women {
+    left: 460px;
+    top: -60px;
   }
 }
 
@@ -509,6 +673,11 @@ footer {
     margin: 0 50%;
     width: 355px;
     height: 460px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .calculator {
+    margin: -540px 69%;
   }
 }
 
@@ -632,6 +801,12 @@ footer {
   font-size: 18px;
   line-height: 21px;
   color: #F28925;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero_desc_wrap {
+    width: 480px;
+  }
 }
 
 .best_suggestions {
@@ -1217,6 +1392,7 @@ footer {
   line-height: 40px;
   text-align: center;
   color: #45515F;
+  margin-bottom: 30px;
 }
 
 .take_money_after_title {
@@ -1230,4 +1406,8 @@ footer {
 
 .take_money_title_wrap {
   padding: 40px 50px;
+}
+
+.take_money_img {
+  margin: 0 auto;
 }/*# sourceMappingURL=styles.css.map */
