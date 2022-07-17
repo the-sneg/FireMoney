@@ -45,17 +45,17 @@ p {
 }
 @media screen and (min-width: 360px) {
   .container {
-    width: 360px;
+    width: 340px;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 748px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    width: 1180px;
   }
 }
 
@@ -1405,7 +1405,7 @@ footer {
 }
 
 .take_money_title_wrap {
-  padding: 40px 50px;
+  padding: 40px 10px;
 }
 
 .take_money_img {
