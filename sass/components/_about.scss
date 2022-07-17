@@ -20,7 +20,21 @@
         @media screen and (min-width: 768px) {
                 padding: 34px 50px;
             }
+                        @media screen and (min-width: 1200px) {
+                            display: flex;
+                        }
        
+}
+.overdue_second_wrap {
+    @media screen and (min-width: 1200px) {
+            margin-right: 50px;
+                display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
 }
 .about_overdue {
     font-style: normal;

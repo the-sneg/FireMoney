@@ -1,3 +1,9 @@
+.take_money {
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: center;
+    }
+}
 .take_money_title {
     font-style: normal;
     font-weight: 600;
@@ -23,4 +29,10 @@
 
 .take_money_img {
     margin: 0 auto;
+}
+
+.take_money_desc_wrap {
+    @media screen and (min-width: 1200px) {
+            
+        }
 }

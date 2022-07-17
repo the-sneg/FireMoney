@@ -111,10 +111,11 @@ font-weight: 400;
         
         @media screen and (min-width: 768px) {
             margin-bottom: 70px;
-            margin-left: 30px;
+            margin-left: 50px;
             }
                         @media screen and (min-width: 1200px) {
                             text-align: left;
+                            margin-left: 0;
                         }
 }
 
@@ -126,11 +127,11 @@ font-weight: 400;
     position: absolute;
     height: 660px;
         top: 150px;
-        left: 10px;
+        left: 0px;
         z-index: 1;
         }
                  @media screen and (min-width: 1200px) {
-                    left: 460px;
+                    left: 440px;
                     top: -60px;
                  }
 }
@@ -149,7 +150,7 @@ font-weight: 400;
                 height: 460px;
             }
                         @media screen and (min-width: 1200px) {
-                            margin: -540px 69%;
+                            margin: -540px 805px;
                         }
 }
 
