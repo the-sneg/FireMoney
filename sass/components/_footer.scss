@@ -78,7 +78,7 @@ font-style: normal;
             padding: 0;
             margin: 0;
             position: absolute;
-            top: 35px;
+            top: 10px;
             left: 230px;
             &::after {
                     display: none;
@@ -303,4 +303,7 @@ font-style: normal;
                 justify-content: space-evenly;
                 padding: 0 130px;
             }
+    }
+    .container_footer {
+        position: relative;
     }
