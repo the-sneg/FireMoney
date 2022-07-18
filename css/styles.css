@@ -228,8 +228,8 @@ footer {
 }
 @media screen and (min-width: 768px) {
   .tel {
-    margin-right: 130px;
-    margin-left: 130px;
+    margin-right: 120px;
+    margin-left: 120px;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -377,6 +377,11 @@ footer {
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 30px;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .credit_list_desc {
+    height: 256px;
+  }
+}
 
 .how_cards {
   font-style: normal;
@@ -495,6 +500,11 @@ footer {
 @media screen and (min-width: 768px) {
   .accepting_desc {
     margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .accepting_desc {
+    height: 252px;
   }
 }
 
