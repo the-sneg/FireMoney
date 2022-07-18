@@ -77,6 +77,24 @@ p {
   }
 }
 
+.hide {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .hide {
+    display: block;
+  }
+}
+
+.hide_desc {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .hide_desc {
+    display: block;
+  }
+}
+
 header {
   padding-right: 10px;
   padding-left: 10px;
@@ -1148,8 +1166,9 @@ footer {
   border-radius: 22px;
   margin-bottom: 30px;
   padding: 30px 25px;
+  max-height: 516px;
 }
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .featcher_card_wrap {
     margin-right: 20px;
   }
@@ -1166,9 +1185,6 @@ footer {
   }
 }
 
-.featcher_card_wrap_wrap {
-  display: none;
-}
 @media screen and (min-width: 768px) {
   .featcher_card_wrap_wrap {
     display: -webkit-box;
@@ -1252,24 +1268,6 @@ footer {
   }
 }
 
-.hide {
-  display: none;
-}
-@media screen and (min-width: 768px) {
-  .hide {
-    display: block;
-  }
-}
-
-.hide_desc {
-  display: none;
-}
-@media screen and (min-width: 1200px) {
-  .hide_desc {
-    display: block;
-  }
-}
-
 .clients {
   padding-left: 10px;
   padding-right: 10px;
@@ -1323,6 +1321,14 @@ footer {
 @media screen and (min-width: 1200px) {
   .clients_card {
     width: 270px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients_card {
+    margin-right: 20px;
+  }
+  .clients_card:nth-child(even) {
+    margin-right: 0;
   }
 }
 
@@ -1422,6 +1428,14 @@ footer {
   }
   .overdue_second_wrap:last-child {
     margin-right: 0px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .overdue_second_wrap {
+    margin-bottom: 50px;
+  }
+  .overdue_second_wrap:last-child {
+    margin-bottom: 0;
   }
 }
 
