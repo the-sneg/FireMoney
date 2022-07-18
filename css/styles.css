@@ -1402,6 +1402,7 @@ footer {
 @media screen and (min-width: 768px) {
   .overdue_wrap {
     padding: 34px 50px;
+    max-height: 900px;
   }
 }
 @media screen and (min-width: 1200px) {
